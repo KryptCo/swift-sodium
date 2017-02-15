@@ -16,3 +16,8 @@ DerivedData
 Pods/
 build/
 xcuserdata
+LIBSODIUM_COMMIT
+Sodium/libsodium/sodium/
+Sodium/libsodium/sodium.h
+Sodium/libsodium/libsodium-ios.a
+Sodium/libsodium/libsodium-osx.a
