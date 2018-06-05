@@ -30,7 +30,7 @@ public class Stream {
     public func nonce() -> Nonce {
         var nonce = Data(count: NonceBytes)
         nonce.withUnsafeMutableBytes { noncePtr in
-            randombytes_buf(noncePtr, nonce.count)
+            randombytes_buf(noncePtr, NonceBytes)
         }
         return nonce
     }
